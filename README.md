@@ -70,7 +70,7 @@ EOF
 
 ## 3. Docker Stack Activation 🚀
 
-## 3.1 Start Containers
+### 3.1 Start Containers
 ```bash
 # Build and start containers
 docker-compose up -d --build
