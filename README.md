@@ -8,6 +8,7 @@
 2. Ngrok Account ([Free Tier](https://dashboard.ngrok.com/signup))
 3. Terminal/CLI access
 
+
 ## 🚀 Quick Start
 ```bash
 # 1. Initialize project repository
@@ -68,6 +69,7 @@ EOF
 
 🔍 **Pro Tip:** The token looks like _2AbcDeF...xyz_
 
+
 ## 3. Docker Stack Activation 🚀
 
 ### 3.1 Start Containers
@@ -78,6 +80,8 @@ docker-compose up -d --build
 # List all services in the stack
 docker-compose ps
 ```
+
+
 ## 🔗 4. Access Your Site
 
 ### 4.1 Local Access
@@ -90,11 +94,14 @@ docker-compose logs ngrok | grep "url=https://"
 ```
 📢 Copy the `https://` URL to share with anyone!
 
+
+
 ## 🧹 5. Cleanup When Done
 ```bash
 docker-compose down  # Full teardown with volume removal  
 docker volume prune  # Removes DB volume
 ```
+
 
 We just:
 
