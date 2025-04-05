@@ -66,7 +66,7 @@ EOF
 - Copy your authtoken from dashboard
 - Replace `your_ngrok_token_here` in the YAML file
 
-🔍 **Pro Tip:** The token looks like https://2AbcDe-123-...xyz.ngrok-free.app
+🔍 **Pro Tip:** The token looks like _2AbcDeF...xyz_
 
 ## 3. Docker Stack Activation 🚀
 
