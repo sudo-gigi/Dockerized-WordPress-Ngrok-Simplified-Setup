@@ -61,36 +61,35 @@ EOF
 
 ## 🌐 2. Ngrok Setup
 
-### 3.1 Get Your Free Token
+### 2.1 Get Your Free Token
 - Sign up at [ngrok.com](https://ngrok.com) (free tier works!)
 - Copy your authtoken from dashboard
 - Replace `your_ngrok_token_here` in the YAML file
 
-🔍 **Pro Tip:** The token looks like _2AbcDeF...xyz_
+🔍 **Pro Tip:** The token looks like https://2AbcDe-123-...xyz.ngrok-free.app
 
+## 3. Docker Stack Activation 🚀
 
-## 4. Docker Stack Activation 🚀
-
-## 4.1 Start Containers
+## 3.1 Start Containers
 ```bash
 docker-compose up -d
 
 # List all services in the stack
 docker-compose ps
 ```
-## 🔗 5. Access Your Site
+## 🔗 4. Access Your Site
 
-### 5.1 Local Access
+### 4.1 Local Access
 👉 [http://localhost:8000](http://localhost:8000)  
 *(WordPress installer will greet you and you'll have to setup admin on first access)*
 
-### 5.2 Public URL via Ngrok
+### 4.2 Public URL via Ngrok
 ```bash
 docker-compose logs ngrok | grep "url=https://"
 ```
 📢 Copy the `https://` URL to share with anyone!
 
-## 🧹 6. Cleanup When Done
+## 🧹 5. Cleanup When Done
 ```bash
 docker-compose down  # Full teardown with volume removal  
 docker volume prune  # Removes DB volume
