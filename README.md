@@ -72,6 +72,7 @@ EOF
 
 ## 3.1 Start Containers
 ```bash
+# Build and start containers
 docker-compose up -d --build
 
 # List all services in the stack
