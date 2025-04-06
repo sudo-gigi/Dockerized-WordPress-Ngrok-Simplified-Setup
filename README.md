@@ -89,9 +89,7 @@ docker-compose ps
 *(WordPress installer will greet you and you'll have to setup admin on first access)*
 
 ### 4.2 Public URL via Ngrok
-```bash
-docker-compose logs ngrok | grep "url=https://"
-```
+Go to `http://localhost:4040` to get the ngrok public https url
 📢 Copy the `https://` URL to share with anyone!
 
 
